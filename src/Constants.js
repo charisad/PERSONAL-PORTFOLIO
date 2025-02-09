@@ -1,7 +1,7 @@
-import DROPSHIP from "./Assets/Projects/dropship.jpg";
-import GOOD_FOOD_DISCOUNTS from "./Assets/Projects/goodFoodDiscounts.png"; 
 import CLOUDSEC from "./Assets/Projects/cloudsecllc.png";
- 
+import POWERAPP from "./Assets/Projects/powerapp.png"; 
+const RAISEUP =   "https://designs.hubtel.com/v4/education/assets/images/schools/side-raiseup.svg";
+
 export const PROJECTS = [
   
   {
@@ -13,18 +13,18 @@ export const PROJECTS = [
   },
 
   {
-    image: DROPSHIP,
-    name: "DropShip Shopify App",
-    technologyUsed: "Shopify, React, typescript, polaris, GraphQL, Nodejs, Koajs",
-    description: "It is customized clothes shopify app which fetch order from store and give option to customize product and send detail to store owner. Also maintain tracking etc of product.",
-    url: "",
+    image: RAISEUP,
+    name: "RaiseUP",
+    technologyUsed: "Dotnet, C#, Elasticache, React, typescript, , EC2, Azure DevOps, RDS, ElasticSearch",
+    description: "RaiseUp makes it simple for busy parents to get more control and visibility over non-academic activities.",
+    url: "https://raiseup.hubtel.com/",
   },
   {
-    image: GOOD_FOOD_DISCOUNTS,
-    name: "GoodFoodDiscounts",
-    technologyUsed: "ReactNative, Javascript, Redux",
-    description: "Good food discouts app is similar like swiggy. Food and hotel can be searched and can be order. Even has facility to add coupan. You can add food in favourite list.",
-    url: "",
+    image: POWERAPP,
+    name: "ECG PowerApp",
+    technologyUsed: "Dotnet, C#, Elasticache, React, typescript, , EC2, Azure DevOps, RDS, ElasticSearch, Apache Fineract",
+    description: "The ECG PowerApp is a digital tool designed to facilitate seamless interactions between users and their utility services. This application is available for the Android platform and allows users to manage their prepaid and postpaid meter types efficiently.",
+    url: "https://powerapp.ecg.com.gh/",
   },
 ];
 
@@ -37,14 +37,18 @@ export const SKILLS = [
   { name: "Grafana", initialRating: 3 },
   { name: "New Relic", initialRating: 3 },
   { name: "Python", initialRating: 4 },
-  { name: "bash", initialRating: 4 },
+  { name: "bash", initialRating: 6 },
   { name: "Unit-Testing(Jest)", initialRating: 3 },
+  { name: "Apache Kafka", initialRating: 4 },
+  { name: "Nginx", initialRating: 4 },
+  { name: "Apache Kafka", initialRating: 3 },
   { name: "TypeScript", initialRating: 4 },
   { name: "Graphql", initialRating: 4 },
-  { name: "AWS", initialRating: 4 },
+  { name: "AWS", initialRating: 5 },
   { name: "Docker", initialRating: 4 },
+  { name: "Datadog", initialRating: 2 },
   { name: "Azure DevOps", initialRating: 4 },
   { name: "Git", initialRating: 4 },
 ];
 
-export const TOOLS = ["Visual Studio Code", "Git", "Docker Desktop", "Lens", "Minikube", "chocolatey", "Linux", "Putty", "Postman"]
+export const TOOLS = ["Visual Studio Code", "Git", "Docker Desktop", "Lens", "MobaXterm", "chocolatey", "Linux", "Putty", "Postman"]
