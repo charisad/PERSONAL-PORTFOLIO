@@ -794,7 +794,13 @@ html {
   width: 65%;
   margin-top: 12%;
   margin-left: 25%;
+  object-fit: cover;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds depth */
+  border: 3px solid #ddd; /* Light border */
+  
 }
+
+
 
 @media (max-width: 767px) {
   .profile-pic {

@@ -41,7 +41,7 @@ function SocialMedia() {
       </li>
       <li className="social-icons">
         <a
-          href="mailto:adombaffourcollins@gmail.com"
+          href="mailto:charisbaffour224@gmail.com"
           target="_blank"
           rel="noreferrer"
           className="icon-colour home-social-icons"
